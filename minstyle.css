@@ -211,12 +211,21 @@ td {
   vertical-align: top;
 }
 
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  .logo {
+      display: none;
+  }
+}
+
 @media only screen and (min-width: 480px) {
   body {
     font-size: 14px;
   }
   .logo {
-      max-height: 30px
+      max-height: 30px;
   }
 }
 
@@ -364,3 +373,8 @@ ul.articles {
 footer {
     font-size: 13px;
 }
+.mjx-chtml {
+    font-size: 1.3em ! important;
+}
+div.sourceCode { background-color: #eee; }
+
